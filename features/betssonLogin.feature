@@ -4,7 +4,7 @@ Feature: Login Betsson
   Background: Navigation
     Given Go to the Betsson website
     
-  Scenario: Change theme
+  Scenario: Login
     When I type 'fernandes007' in email
     And I type 'F3rnandes@' in password
     And I click on enter
