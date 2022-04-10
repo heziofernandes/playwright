@@ -5,7 +5,7 @@ const browserOptions: LaunchOptions = {
   firefoxUserPrefs: {
     'media.navigator.streams.fake': true,
     'media.navigator.permission.disabled': true,
-    headless: false
+    headless: true
   },
 };
 

@@ -6,7 +6,7 @@ import expect from 'expect';
 Given('logged into the site Betsson', async function (this: ICustomWorld) {
   const page = this.page!;
   await page.goto(config.BASE_URL);
-  await page.locator('text="OK"').click();
+  await page.locator('text="OK"').click({ timeout: 120000 });
   await page.locator('#m-accWidget--header__btnLogin').click();
   await page.fill('#dlg-login-username', 'fernandes007');
   await page.fill('#dlg-login-password', 'F3rnandes@');

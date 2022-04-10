@@ -6,7 +6,7 @@ import expect from 'expect';
 Given('Go to the Betsson website', async function (this: ICustomWorld) {
   const page = this.page!;
   await page.goto(config.BASE_URL);
-  await page.locator('text="OK"').click();
+  await page.locator('text="OK"').click({ timeout: 120000 });
   await page.locator('#m-accWidget--header__btnLogin').click();
 });
 
