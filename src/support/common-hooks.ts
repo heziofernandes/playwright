@@ -43,7 +43,7 @@ Before({ tags: '@ignore' }, async function () {
 });
 
 Before({ tags: '@debug' }, async function (this: ICustomWorld) {
-  this.debug = true;
+  this.debug = false;
 });
 
 Before(async function (this: ICustomWorld, { pickle }: ITestCaseHookParameter) {

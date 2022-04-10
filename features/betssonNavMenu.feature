@@ -1,3 +1,4 @@
+@navMenu
 Feature: Navigation Menu
 
   Background: Navigation

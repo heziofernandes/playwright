@@ -1,4 +1,4 @@
-@foo
+@Login
 Feature: Login Betsson
 
   Background: Navigation
